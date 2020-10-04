@@ -1,3 +1,5 @@
+@using survey.Models
+@model Survey
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,16 +11,15 @@
     <body>
         <div class="container">
             <h1>Submitted Info</h1>
-            <p>Name: @ViewBag.Name</p>
-            <p>Dojo Location: @ViewBag.Location</p>
-            <p>Favorite Language: @ViewBag.Language</p>
-            <p>Comment @ViewBag.Comment</p>
+            @{
+                <p>Name: @Model.name</p>
+                <p>Dojo Location: @Model.location</p>
+                <p>Favorite Language: @Model.language</p>
+                <p>Comment @Model.comment</p>
+            }
         </div>
         <form action="/">
         <input type="submit" value="Go Back">
         </form>
-
-        
-     
     </body>
 </html>

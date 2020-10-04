@@ -28,4 +28,4 @@
 /Users/leslie/Desktop/C#/Dojo_Survey/survey/obj/Debug/netcoreapp3.1/survey.RazorTargetAssemblyInfo.cs
 /Users/leslie/Desktop/C#/Dojo_Survey/survey/obj/Debug/netcoreapp3.1/survey.Views.pdb
 /Users/leslie/Desktop/C#/Dojo_Survey/survey/obj/Debug/netcoreapp3.1/survey.csproj.CopyComplete
-/Users/leslie/Desktop/C#/Dojo_Survey/survey/obj/Debug/netcoreapp3.1/Razor/Views/Home/Result.cshtml.g.cs
+/Users/leslie/Desktop/C#/Dojo_Survey/survey/obj/Debug/netcoreapp3.1/Razor/Views/Home/Submission.cshtml.g.cs

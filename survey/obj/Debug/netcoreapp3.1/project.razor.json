@@ -14392,8 +14392,8 @@
   "RootNamespace": "survey",
   "Documents": [
     {
-      "FilePath": "/Users/leslie/Desktop/C#/Dojo_Survey/survey/Views/Home/Result.cshtml",
-      "TargetPath": "Views\\Home\\Result.cshtml",
+      "FilePath": "/Users/leslie/Desktop/C#/Dojo_Survey/survey/Views/Home/Submission.cshtml",
+      "TargetPath": "Views\\Home\\Submission.cshtml",
       "FileKind": "mvc"
     },
     {
