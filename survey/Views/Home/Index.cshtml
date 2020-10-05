@@ -10,25 +10,29 @@
 
     </head>
     <body>
-        <form action="/survey" method="post">
-            <label>Your Name:</label>
-            <input type="text" name="name">
+        <form asp-action="Submission" asp-controller="Home"  method="post">
+            <span asp-validation-for="name"></span>
+            <label asp-for="name">Your Name:</label>
+            <input asp-for="name" type="text">
+            <span asp-validation-for="location"></span>
             <label>Dojo Location:</label>
-            <select name="location">
+            <select asp-for="location">
                 <option>San Jose</option>
                 <option>Seattle</option>
                 <option>LA</option>
                 <option>Bellevue</option>
             </select>
-            <label>Favorite Language</label>
-            <select name="language">
+            <label asp-for="language">Favorite Language</label>
+            <span asp-validation-for="language"></span>
+            <select asp-for="language">
                 <option>C#</option>
                 <option>Javascript</option>
                 <option>Python</option>
                 <option>Java</option>
             </select>      
             <label>Comment(optional):</label>
-            <input type="text" name="comment">
+            <span asp-validation-for="comment"></span>
+            <input asp-for="comment" type="text">
 
             <input type="submit" value="submit">
             

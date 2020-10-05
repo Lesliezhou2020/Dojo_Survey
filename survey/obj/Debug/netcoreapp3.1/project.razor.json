@@ -14400,6 +14400,11 @@
       "FilePath": "/Users/leslie/Desktop/C#/Dojo_Survey/survey/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/leslie/Desktop/C#/Dojo_Survey/survey/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

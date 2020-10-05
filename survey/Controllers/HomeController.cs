@@ -16,7 +16,14 @@ namespace survey.Controllers     //be sure to use your own project's namespace!
         [HttpPost("survey")]
         public IActionResult Submission(Survey yourSurvey)
         {
-           return View("Submission", yourSurvey);
+            if(ModelState.IsValid)
+            {
+                return View("Submission", yourSurvey);
+            }
+            else
+            {
+                return Index();
+            }
         }
     }
 }
