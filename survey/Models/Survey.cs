@@ -21,6 +21,23 @@ namespace survey.Models
         [Display(Name="comment: ")]
         [MinLength(4, ErrorMessage="Comment must be at least 20 characters.")]
         public string comment { get; set; }
+
+        [Display(Name="date: ")]
+        [DateValidator]
+        public DateTime date { get ; set; }
         
     }
+
+    public class DateValidator : ValidationAttribute
+    {
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        {
+            if((DateTime)value> DateTime.Now)
+            {
+                return new ValidationResult("Posted time must be a previous time.");
+            }
+            return ValidationResult.Success;
+        }
+    }
+
 }
